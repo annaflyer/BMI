@@ -1,0 +1,5 @@
+public static void main(String[] args) {
+    try (Scanner scanner = new Scanner(System.in)) {
+        double weight = getDouble(scanner, "Weight (kg)");
+        double height = getDouble(scanner, "Height (m)");
+        System.out.println("Your BMI is: " + /* calculation */);
